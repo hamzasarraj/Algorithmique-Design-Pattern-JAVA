@@ -1,0 +1,32 @@
+règles de gestion :
+ - les marges sont inclues dans la taille de la ligne ( 5car - 110car - 5car)
+
+PARAMETRES :
+
+- taille des marges : entier (5)
+- taille de la ligne : entier (120)
+- teste à justifier : chaine de caractères (string)
+
+TRAITEMENT : 
+
+1 - transformer le texte à justifier en tableau de caractères
+2 - compter les mots
+3 - compter le nombre de lettres (tout caractère différent de l'espace)
+4 - définir le nombre d'espaces total
+5 - définir le nombre de séparateurs
+6 - définir la taille du séparateur
+7 - fabriquer le texte justifié (tableau de caractères)
+    ecrire la marge de gauche
+	répéter
+	   ecrire un mot : une séquence de lettres sans espace
+	   ecrire un séparateur : quand j'ai un espace qui suit une lettre
+	jusqu'à la fin du texte 
+	ecrire la marge de droite
+
+exemple :
+
+le   petit chat  >>  *****le                  petit                 chat*****
+
+le                  petit                 chat : 3 mots, 2 séparateurs, 35 espaces
+magnifique      extravagante     archiduchesse : 3 mots, 2 séparateurs, 11 espaces
+

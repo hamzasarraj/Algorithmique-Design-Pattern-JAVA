@@ -1,0 +1,44 @@
+class Justification
+{
+	// paramètres :
+	int tailleMarges = 5;
+	// ....
+	
+	public static void main(String[] args)
+	{
+		// initialisation des paramètres (demande des valeus à l'utilisateur)
+	
+		// traitement :
+		//1 - transformer le texte à justifier en tableau de caractères
+		
+		//2 - compter les mots
+		
+		
+		//3 - compter le nombre de lettres (tout caractère différent de l'espace)
+		
+		
+		//4 - définir le nombre d'espaces total
+		
+		
+		//5 - définir le nombre de séparateurs
+		
+		
+		//6 - définir la taille du séparateur
+		
+		
+		//7 - fabriquer le texte justifié (tableau de caractères)
+		//	ecrire la marge de gauche
+		
+		//	répéter
+		
+		//	   ecrire un mot : une séquence de lettres sans espace
+		
+		//	   ecrire un séparateur : quand j'ai un espace qui suit une lettre
+		
+		//	jusqu'à la fin du texte 
+		
+		//	ecrire la marge de droite
+
+
+	}
+}
